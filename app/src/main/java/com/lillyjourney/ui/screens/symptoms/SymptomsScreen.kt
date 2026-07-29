@@ -212,7 +212,7 @@ private fun SymptomFormDialog(
                                 }
                                 .let {
                                     it.let {
-                                        androidx.compose.ui.draw.clickable { onSeverityChange(s) }
+                                        androidx.compose.foundation.clickable { onSeverityChange(s) }
                                     }
                                 },
                             contentAlignment = Alignment.Center,
