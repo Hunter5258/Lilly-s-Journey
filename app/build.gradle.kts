@@ -80,7 +80,7 @@ dependencies {
     implementation("com.patrykandpatrick.vico:compose-m3:1.13.1")
 
     // Biometric
-    implementation("androidx.biometric:biometric:1.2.0-alpha05")
+    implementation("androidx.biometric:biometric:1.1.0")
 
     // WorkManager (reminders)
     implementation("androidx.work:work-runtime-ktx:2.9.0")
