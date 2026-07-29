@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Large heart background frame -->
+    <path
+        android:fillColor="#E8A598"
+        android:pathData="M54,90C54,90 16,66 16,46C16,32 27,22 40,22C48,22 54,28 54,28C54,28 60,22 68,22C81,22 92,32 92,46C92,66 54,90 54,90Z"
+        android:fillAlpha="0.25" />
+
+    <!-- Head -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M54,36m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+
+    <!-- Hair (brown, slightly larger around head) -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M54,25m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"
+        android:fillAlpha="0.6" />
+
+    <!-- Body / torso -->
+    <path
+        android:fillColor="#F8BBD0"
+        android:pathData="M42,46L66,46L70,74C70,78 66,82 54,82C42,82 38,78 38,74Z" />
+
+    <!-- Arms holding belly -->
+    <path
+        android:fillColor="#F8BBD0"
+        android:strokeWidth="3"
+        android:strokeColor="#F48FB1"
+        android:pathData="M38,56C32,58 26,54 24,50"
+        android:fillAlpha="0" />
+    <path
+        android:fillColor="#F8BBD0"
+        android:strokeWidth="3"
+        android:strokeColor="#F48FB1"
+        android:pathData="M70,56C76,58 82,54 84,50"
+        android:fillAlpha="0" />
+
+    <!-- Hands on belly -->
+    <path
+        android:fillColor="#FFCCBC"
+        android:pathData="M24,48m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    <path
+        android:fillColor="#FFCCBC"
+        android:pathData="M84,48m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+
+    <!-- Face features - closed eyes (peaceful) -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M49,35Q51,33 53,35"
+        android:strokeWidth="1.2"
+        android:strokeColor="#3E2723"
+        android:fillAlpha="0" />
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M55,35Q57,33 59,35"
+        android:strokeWidth="1.2"
+        android:strokeColor="#3E2723"
+        android:fillAlpha="0" />
+
+    <!-- Small smile -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M51,39Q54,42 57,39"
+        android:strokeWidth="1"
+        android:strokeColor="#3E2723"
+        android:fillAlpha="0" />
+
+    <!-- Flower hair clip -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,29m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path
+        android:fillColor="#F8BBD0"
+        android:pathData="M64,26m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+
+    <!-- Sparkle dots -->
+    <path
+        android:fillColor="#E8A598"
+        android:pathData="M22,30m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path
+        android:fillColor="#E8A598"
+        android:pathData="M86,28m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path
+        android:fillColor="#D4A5A5"
+        android:pathData="M30,78m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path
+        android:fillColor="#D4A5A5"
+        android:pathData="M78,76m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+
+    <!-- Star sparkle top -->
+    <path
+        android:fillColor="#E8A598"
+        android:pathData="M54,18L55.5,22L60,22L56.5,25L58,30L54,27L50,30L51.5,25L48,22L52.5,22Z" />
+
+    <!-- Small decorative heart bottom right -->
+    <path
+        android:fillColor="#D4A5A5"
+        android:pathData="M82,82C82,82 80,78 82,77C83.5,76 85,77 85,77C85,77 86.5,76 88,77C90,78 88,82 88,82C88,82 85,84 82,82Z"
+        android:fillAlpha="0.5" />
+
+</vector>
