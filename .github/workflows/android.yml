@@ -24,7 +24,7 @@ jobs:
 
       - name: Install required SDK platforms
         run: |
-          yes | sdkmanager "platforms;android-34" "build-tools;34.0.0" 2>&1 | tail -5 || true
+          yes | sdkmanager "platforms;android-35" "build-tools;35.0.1" 2>&1 | tail -5 || true
 
       - name: Make gradlew executable
         run: chmod +x gradlew
