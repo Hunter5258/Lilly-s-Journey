@@ -93,7 +93,22 @@ dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     constraints {
         implementation("androidx.core:core:1.12.0") {
-            because("1.13.1 ships broken values.xml with {str}")
+            because("1.13.x ships broken values.xml with {str}")
+        }
+    }
+}
+
+// Patch androidx.core:core library's {str} resource before AAPT2 compiles it
+// core 1.12+ ships app_name={str} which crashes AAPT2 ("Invalid unicode escape sequence")
+afterEvaluate {
+    tasks.matching { it.name.startsWith("merge") && it.name.contains("Resources") }.configureEach {
+        doFirst {
+            file("${System.getProperty("user.home")}/.gradle/caches/transforms-4")
+                .takeIf { it.exists() }?.walkTopDown()?.forEach { f ->
+                    if (f.name == "values.xml" && f.readText().contains("{str}")) {
+                        f.writeText(f.readText().replace("{str}", "Lilly's Journey"))
+                    }
+                }
         }
     }
 }
